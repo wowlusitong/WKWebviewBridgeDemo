@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+    {
+      "name" : "WKWebviewBridge",
+      "hash" : "65789ce467afe14cc653e56e6781f39274dda5570c320d213d9e72c749da7627"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.0.0",
+  "iOS" : [
+
+  ]
+}

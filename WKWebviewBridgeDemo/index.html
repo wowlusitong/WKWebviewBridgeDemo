@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <script>
+                function clickButton() {
+                    window.webkit.messageHandlers.handler.postMessage("hello")
+                }
+            function jsHander() {
+                document.querySelector("p").innerHTML += "call from swift."
+            }
+            </script>
+            </head>
+    <body>
+        <button onClick="clickButton()">call swift</button>
+        <p></p>
+    </body>
+</html>
+
